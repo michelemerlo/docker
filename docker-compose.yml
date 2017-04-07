@@ -1,0 +1,5 @@
+version: '3'
+image: mediawiki:tag
+build: 
+        context: /opt/own_images/test_mysql     
+restart_policy: :
